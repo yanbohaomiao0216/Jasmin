@@ -1,0 +1,127 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 2, 2017, 10:14:50 AM
+    Author     : yxu4
+*/
+body{
+    font-family:Cursive,sans-serif;
+    /*I will change this part as display:block;*/
+    display:block;
+    text-align:center;
+    margin:2% 8%;
+    background: lightsteelblue;
+    
+}
+/*
+body:focus { 
+    outline: none;
+}*/
+#main{
+    background:powderblue;
+    height:92vh;
+    width:85vw;
+    
+}
+
+#header{
+    height:25%;
+    background:mistyrose;
+}
+/*The below are all styles in the header*/
+/*
+  ***************Header ***********************
+ **********************************************
+*/
+#logo{
+    height:20vmin;
+    width:20vmin;
+    float:left;
+    margin-left:4%;
+    margin-top:-2vh;
+    background: buttonface;
+    font-size: 2.4vmin;
+    /*padding-top: 100%;*/
+}
+
+#logoText{
+    float:left;
+    margin:2.5% 0 0 12%; /*12% move the text to the right*/
+    font-family: cursive;
+    font-size:8vmin;
+    color:darkcyan;
+}
+
+#widgetBar{
+    height:15%;
+    width:100%;
+    float:right;
+    background: papayawhip;
+}
+
+.headerWidget{
+    width:25%;
+    margin:0.5vmin 0.25vmin;
+    font-size:2.2vmin;
+    float:right;
+    line-height:3vmin;
+    background: peachpuff;
+}
+/*****************************************
+************Header************************
+******************************************/
+/*The above are all styles in the header*/
+
+
+/*Below #footer and hr are fot footer syyle*/
+#footer{
+    height:10%;
+    width:40%;
+    clear:left;
+    background:#aaa;
+}
+hr{
+    border=0;
+    background-color: brown;
+    height:0.1vmin;
+    margin:0 5%;
+    width:90%;
+}
+/*Above #footer and hr are fot footer syyle*/
+
+#indexLeftColumn{
+    height:65%;
+    width:40%;
+    float:left;
+    background:#ccc;
+}
+/*Below are welcome page right colunm style*/
+/*
+****************index.jsp Right Column*******
+*********************************************
+*/
+#indexRightColumn{
+    height:65%;
+    width:60%;
+    float:left;
+    background:#eee;
+}
+.categoryBox{
+    height:24vmin;
+    width:36vmin;
+    margin:4vmin 8vmin 1vmin;
+    float:inherit;
+    background:cadetblue;
+}
+.categoryLabelText{
+    line-height:150%;
+    font-size:4vmin;
+}
+/*
+**************Above are for the index.jsp right column****
+**********************************************************
+*/
+/*Above are welcome page right colunm style*/
