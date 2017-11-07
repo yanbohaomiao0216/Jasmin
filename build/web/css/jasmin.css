@@ -29,7 +29,7 @@ body:focus {
 
 #header{
     height:25%;
-    background:mistyrose;
+    background:#CCCCFF;
 }
 /*The below are all styles in the header*/
 /*
@@ -50,13 +50,13 @@ body:focus {
 #logoText{
     float:left;
     margin:2.5% 0 0 12%; /*12% move the text to the right*/
-    font-family: cursive;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size:8vmin;
     color:darkcyan;
 }
 
 #widgetBar{
-    height:15%;
+    height:20%;
     width:100%;
     float:right;
     background: papayawhip;
@@ -111,9 +111,9 @@ hr{
 }
 .categoryBox{
     height:24vmin;
-    width:36vmin;
-    margin:4vmin 8vmin 1vmin;
-    float:inherit;
+    width:40%;
+    margin:4vmin 5% 1vmin;
+    float:left;
     background:cadetblue;
 }
 .categoryLabelText{
@@ -125,3 +125,211 @@ hr{
 **********************************************************
 */
 /*Above are welcome page right colunm style*/
+#categoryTitle{
+    text-align: center;
+    background-color: white;
+    margin:-6.4vmin 17vmin 0 0;
+    float:right;
+    width:18vmin;
+    height: 6.2vmin;
+    font-size: 2.4vmin;
+    padding:0.2vmin;
+    
+}
+.centerText{
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%); 
+}
+table{
+    margin:0 2.5%;
+    border-spacing:0;
+    test-align:center;
+    border:solid 1px #f5eabe;
+}
+
+/********************************************/
+#categoryLeftColumn{
+    height:65%;
+    width:20%;
+    float:left;
+    background:#ccc;
+}
+/*************************************************/
+#categoryRightColumn{
+    height:65%;
+    width:80%;
+    float:left;
+    background:#eee;
+}
+
+.categoryButton{
+    background-color:lightseagreen;
+    
+}
+.categoryButton{
+    height:10%;
+    width:80%;
+    margin:10% 10% 10%;
+    float:left;
+    background:cadetblue;
+}
+.categotyText{
+    line-height:150%;
+    font-size:2.8vmin;
+}
+#productTable{
+    width:95%;
+    height:100%;
+    background-color: sienna;
+}
+#productTable tr{
+    height:20%;
+}
+#productTable td{
+    width:25%;
+/*    height:100%;*/
+}
+.lightBlue{
+    background-color:#CCE698;
+}
+.white{
+    background-color: #fff;
+}
+.smallText{
+    font-size:1.4vmin;
+}
+/*******************************************************
+********************************************************
+****Above are css for category jsp page*****************
+********************************************************
+*******************************************************/
+#centerColumn{
+    width:100%;
+    height:65%;
+    background-color: #FFFFCC;
+/*    background-color: #739940;*/
+}
+#leftText{
+    text-align: left;
+    margin:0 10vmin;
+    padding-top: 2vmin;
+}
+#actionBar{
+    margin: 1vmin 2.5% 0;
+    width:95%;
+    height: 4vmin;
+    text-align: center;
+    background-color: white;
+    padding-top: 1vmin;
+}
+.bubble{
+    font-weight: bold;
+    background-color: tan;
+    
+/*    padding:1vmin;*/
+    color:inherit;
+}
+.hMargin{
+    margin:0 6vmin;
+}
+
+#subtotal{
+    margin: 0vmin 10% 1vmin 74%;
+}
+#cartTable{
+    width:86%;
+    margin: 0.5vmin 7% 0;
+    text-align: center;
+}
+#cartTable td{
+    width:25%;
+    height:8vmin;
+}
+.centerBotton{
+    position: relative;
+     top: 20%;
+     transform: translateY(-20%);
+    
+}
+.cartHeader{
+    background-color: #739940;
+    height: 4vmin;
+}
+
+/*
+************************************************
+*********NOW IS CHECKOUT PAGE ******************
+************************************************
+*/
+#checkoutTable{
+    width:42%;
+    background-color: darkseagreen;
+    float:left;
+    height:70%;
+    margin-top: 2%;
+    margin-left: 5%;
+    text-align: center;
+    
+}
+#infoBox{
+    width:42%;
+    padding-left: 5%;
+    float:left;
+}
+#purchaseCondition{
+    border:black solid 1px;
+    padding:2%;
+    margin: 2% 0;
+    height:28%;
+    width:95%;
+    background-color: white;
+}
+#priceBox{
+    padding:2%;
+    margin: 2% 0;
+    height:28%;
+    width:95%;
+    clear: both;
+    background-color: #AD8226;
+}
+
+/*
+************************************************
+*********NOW IS CONFIRMATION PAGE ******************
+************************************************
+*/
+#confirmationText{
+    margin:0 1% 0.5%;
+    padding:0.5%;
+    background-color: darkseagreen;
+    float: left;
+    width:65%;
+}
+.summaryColumn{
+    margin-top: 2%;
+    width:50%;
+    height: 70%;
+    float:left;
+}
+#orderSummaryTable{
+    width:100%;
+    text-align: left;
+    height:100%;
+}
+#deliveryAddressTable{
+    width:70%;
+    margin-left: 15%;
+    text-align: left;
+    height:100%;
+}
+
+/*#singleColumn{
+    margin:20px 30px;
+    text-align: left;
+}*/
+/*
+*******************************************
+********End of the Confirmation Page*******
+*******************************************
+*/

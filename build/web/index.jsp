@@ -26,7 +26,7 @@
                 <a href="#">
                     <img src="#" id="logo" alt="Sheboygan logo">
                 </a>
-                <img src="#" id="logoText" alt="the Sheboygan Lab">
+                <img src="#" id="logoText" alt="The Sheboygan Lab">
             </div>
             <div id="indexLeftColumn">
                 <div id="welcomeText">
