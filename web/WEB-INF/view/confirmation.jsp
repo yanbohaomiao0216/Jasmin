@@ -4,30 +4,7 @@
     Author     : yxu4
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/jasmin.css">
-        <title>Confirmation Page</title>
-    </head>
-    <body>
-        <div id="main">
-            <div id="header">
-                <div id="widgetBar">
-                    <div class="headerWidget">
-                        [ language toggle]
-                    </div>
-                    <div class="headerWidget">
-                        [shopping cart widget]
-                    </div>
-                </div>
-                <a href="#">
-                    <img src="#" id="logo" alt="Sheboygan logo">
-                </a>
-                <img src="#" id="logoText" alt="The Sheboygan Lab">
-            </div>
+
             <!--Block for confirmation page**********************-->
             <div id="centerColumn">
                 <p id="confirmationText">
@@ -59,10 +36,4 @@
             </div>
             
             <!--**********************closed********************-->
-            <div id="footer">
-                <hr>
-                <p id="footerText">[ Footer Text ]</p> 
-            </div>
-        </div>
-    </body>
-</html>
+            
